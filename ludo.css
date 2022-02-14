@@ -1,0 +1,27 @@
+table{
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 90vh;
+    height: 90vh;
+}
+#ff{
+    background-image: url(dice.gif);
+    background-size: contain;
+
+}
+@media (max-width: 500px){
+    #tablee{
+        width: 50vh;
+        height: 70vh;
+    }
+    #ff{
+        background-image: url(dice.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    *{
+        background-color: black;
+    }
+}
